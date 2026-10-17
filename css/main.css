@@ -4,7 +4,8 @@ body {
     font-size: 18px;
 }
 
-header, footer {
+header,
+footer {
     background-color: #E9DCC8;
 }
 
@@ -33,7 +34,6 @@ nav a {
     display: inline-block;
     margin-right: 5px;
 }
-
 
 nav a:hover,
 nav a:focus {
