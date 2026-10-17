@@ -1,1 +1,45 @@
 
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+header, footer {
+    background-color: #E9DCC8;
+}
+
+
+.site-title {
+    color: #B9603D;
+}
+
+
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+
+ul {
+    list-style-type: square;
+}
+
+ul li:nth-child(odd) {
+    background-color: #E9DCC8;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #49352A;
+    color: white;
+    border: 1px solid #B9603D;
+    padding: 8px 12px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+nav a:hover,
+nav a:focus {
+    background-color: #B9603D;
+}
